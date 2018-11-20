@@ -26,3 +26,7 @@ for repo in "${repos[@]}"; do
     curl -X DELETE -H "Authorization: token <YOURTOKEN>" "https://api.github.com/repos$repo";
 done
 ```
+
+*Credits:*
+
+- [Clean Up Unused GitHub Repositories!](https://medium.com/@xwildeyes/clean-up-unused-github-rpositories-c2549294ee45)^
